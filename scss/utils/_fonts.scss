@@ -1,0 +1,78 @@
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-weight: 900;
+    src: url("../fonts")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-weight: 100;
+    /* Тонкий */
+    src: url("../fonts/Poppins-Thin.ttf") format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-weight: 200;
+    /* Light */
+    src: url("../fonts/Poppins-Light.ttf") format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-weight: 300;
+    /* Book */
+    src: url("../fonts/Poppins-Book.ttf") format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-weight: 400;
+    /* Regular */
+    src: url("../fonts/Poppins-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-weight: 500;
+    /* Medium */
+    src: url("../fonts/Poppins-Medium.ttf") format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-weight: 600;
+    /* Semi-bold */
+    src: url("../fonts/Poppins-SemiBold.ttf") format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-weight: 700;
+    /* Bold */
+    src: url("../fonts/Poppins-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-weight: 800;
+    /* Extra-bold */
+    src: url("../fonts/Poppins-ExtraBold.ttf") format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Poppins";
+    font-weight: 900;
+    /* Black */
+    src: url("../fonts/Poppins-Black.ttf") format('truetype');
+}
