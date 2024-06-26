@@ -3,11 +3,11 @@ const swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
     spaceBetween: 20,
     breakpoints: {
-      480: {
+      768: {
         slidesPerView: 2,
       },
       // when window width is >= 640px
-      768: {
+      1280: {
         slidesPerView: 3,
       }
     },
@@ -15,12 +15,13 @@ const swiper = new Swiper('.swiper-container', {
 
     pagination: {
       el: '.pagination',
-      bullt 
+      bulletClass: 'pagination__button',
+      bulletActiveClass: 'pagination__button--active',
     },
    
     navigation: {
       nextEl: '.carousel-button.next',
-      prevEl: '.carousel-button.prev'
+      prevEl: '.carousel-button.prev',
     }
 
   });

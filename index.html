@@ -132,14 +132,14 @@
             <h2 class="formats-section__title section__title section__title--centered">Формати</h2>
 
             <div class="formats-section__slider">
-                <button class="carousel-button prev" type="button">
+                <button class="formats-section__button carousel-button prev" type="button">
                     <svg width="16" height="16">
                         <use href="./images/symbol-defs.svg#icon-Arrow-1"></use>
                     </svg>
                 </button>
                 
                 <div class="formats-section__container swiper-container">
-                    <ul class="swiper-wrapper">
+                    <ul class="swiper-wrapper formats-section__list">
                         <li class="swiper-slide">
                             <article class="format-card">
                                 <img class="format-card__image" src="./images/P’URI 09 1.jpg" alt="warlus format">
@@ -215,15 +215,15 @@
                     </ul>
 
                     <div class="pagination">
-                        <button class="pagination__button" type="button" aria-label="Go to slide 1"></button>
-                        <button class="pagination__button" type="button" aria-label="Go to slide 2"></button>
-                        <button class="pagination__button" type="button" aria-label="Go to slide 3"></button>
-                        <button class="pagination__button" type="button" aria-label="Go to slide 4"></button>
+                        <span class="pagination__button"></span>
+                        <span class="pagination__button"></span>
+                        <span class="pagination__button"></span>
+                        <span class="pagination__button"></span>
                     </div>
 
                 </div>
                 
-                <button class="carousel-button next" type="button">
+                <button class="formats-section__button carousel-button next" type="button">
                     <svg width="16" height="16">
                         <use href="./images/symbol-defs.svg#icon-Arrow-1"></use>
                     </svg>
@@ -279,52 +279,53 @@
 
     <footer class="footer">
    <div class="container">
-    <div class="footer-container">
-        <nav class="footer-nav">
-            <div class="footer-logo">
+    <div class="footer__container">
+        <nav class="footer__nav">
+            <div class="footer__logo">
                 <a href="#">
                     <img src="./images/logo.svg" alt="логотип сучаснoї пекарні" />
                 </a>
             </div>
-            <ul class="footer-menu">
+            <ul class="footer__menu">
                 <li><a class="link" href="#">Наші традиції</a></li>
                 <li><a class="link" href="#">Шеф-кухарі</a></li>
                 <li><a class="link" href="#">Формати</a></li>
                 <li><a class="link" href="#">Контакти</a></li>
             </ul>
         </nav>
-        <address class="footer-address">
 
-            
-            <ul class="address-list">
+        <address class="footer__address">
+         <div class="footer__address-contacts">
+            <ul class="footer__address-list">
                 <li>
-                    <a class="address-link" href="tel:+38096000007">+ 38 (096) 000 00 07</a>
+                    <a class="footer__address-link" href="tel:+38096000007">+ 38 (096) 000 00 07</a>
                 </li>
                 <li>
-                    <a class="address-link" href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a>
+                    <a class="footer__address-link" href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a>
                 </li>
                 <li>
-                    <a class="address-link" href="https://maps.app.goo.gl/AYLR2dPhU26Ghxsc7" target="_blank">Україна, м. Київ,
+                    <a class="footer__address-link" href="https://maps.app.goo.gl/AYLR2dPhU26Ghxsc7" target="_blank">Україна, м. Київ,
                         вул. Січових Стрільців 54</a>
                 </li>
-                <li>
+            </ul>
+
+            <div>
                     <a href="#">
-                        <svg class="address-icon" width="32" height="32">
+                        <svg class="footer__address-icon" width="32" height="32">
                             <use href="./images/icons.svg#icon-facebook"></use>
                         </svg>
                     </a>
-                </li>
-                <li>
+               
                     <a href="#">
-                        <svg class="address-icon" width="32" height="32">
+                        <svg class="footer__address-icon" width="32" height="32">
                             <use href="./images/icons.svg#icon-instagram"></use>
                         </svg>
                     </a>
-                </li>
-            </ul>
-            <div class="address-info">
-                <a class="address-link" href="#" target="_blank">Політика конфіденційності</a>
-                <p class="address-copyright">&copy; 2022 Дані захищені</p>
+            </div>
+         </div>
+            <div class="footer__address-info">
+                <a class="footer__address-link" href="#" target="_blank">Політика конфіденційності</a>
+                <p class="footer__address-copyright">&copy; 2022 Дані захищені</p>
             </div>
         </address>
     </div>
@@ -332,7 +333,7 @@
    </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop is-hidden">
         <div class="modal">
             <button class="modal-btn-close modal__btn-close " type="button">Close</button>
             <h2>Замовити дзвінок</h2>
